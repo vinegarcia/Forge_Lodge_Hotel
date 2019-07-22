@@ -71,7 +71,7 @@
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
 }
 .section-subreviews{
-  background: url(../img/reviewbg.jpg);
+  background: url(../img/home/reviewbg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
