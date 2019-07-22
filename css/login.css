@@ -1,0 +1,95 @@
+.primary-overlay {
+  background: rgba(42, 37, 56, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card-panel{
+  border-style:solid;
+  border-color:white;
+
+} 
+
+
+.main-header {
+  background: url(../img/login_signup/img6.jpg);
+  background-size: cover;
+  background-blend-mode: hue;
+  background-position: center;
+  height: 100vh;
+  min-height: 1000px;
+  color: #fff;
+  position: relative;
+}
+  .navbar-fixed{
+    background-color:  #EE6C4D;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+  } 
+.page-footer{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.footer-copyright{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  border-radius:50%;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  border-radius:50%;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  border-radius:50%;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  border-radius:50%;
+  color: white;
+}
+a:hover {
+  color: rgb(215, 245, 222);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.main-header .showcase {
+  padding-top: 12px;
+}
+
+
+@media (max-width: 100px) {
+  .main-header {
+    height: 50vh;
+  }
+}
