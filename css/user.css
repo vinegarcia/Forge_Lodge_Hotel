@@ -1,0 +1,75 @@
+.slider .btn {
+  margin-top: 20px;
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
+
+.navbar-fixed{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+#navbar-fix{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.page-footer{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+#page-body{
+  background-color:#9F7E69;
+  /* background-image: linear-gradient(to right, #546E7A, rgba(136, 100, 33, 0.678)); */
+}
+
+#page-card{
+  background-color:#bb745a;
+  
+}    
+
+.footer-copyright{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.logo{
+  position:absolute;
+  top:10px; 
+  left:10px;
+  width:40px;
+  height:40px;
+  overflow:hidden;
+}
+
+.section-gallery{
+
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.card-panel{
+  color:#795548;
+}
+
+.tabs{
+  background: rgb(114, 72, 45);
+  color:#070707;
+}
