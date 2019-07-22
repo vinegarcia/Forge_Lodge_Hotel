@@ -1,0 +1,41 @@
+.slider .btn {
+  margin-top: 20px;
+}
+
+.navbar-fixed{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+a.breadcrumb {
+  font-size: smaller;
+}
+
+
+.h4 {
+  font-weight: bolder; 
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.btn-extended {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.page-footer{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.footer-copyright{
+  background-color:  #EE6C4D;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(41,50,65));
+}
+
+.card-image {
+  max-height: 230px;
+}
