@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- import fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/hotels.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/hotels/icon.png" sizes="36x36">
+  <title>Forge Lodge</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="home.html" class="brand-logo">
+              <img src="img/hotels/fl.png" alt="Forge Lodge" style="height: 60px;">
+            </a>
+            <a href="#" class="button-collapse" data-activates="mobile-nav">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="hotels.html">Hotels</a></li>
+              <li><a href="deals.html">Deals</a></li>
+              <li><a href="login.html">User Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Side Nav -->
+    <ul class="side-nav" id="mobile-nav">
+      <h4 class="center grey-text text-darken-3">Forge Lodge</h4>
+      <li class="divider"></li>
+      <li><a class="center grey-text text-darken-3" href="home.html">HOME</a></li>
+      <li><a class="center grey-text text-darken-3" href="about.html">ABOUT</a></li>
+      <li class="center grey-text text-darken-3 active"><a href="hotels.html">HOTELS</a></li>
+      <li><a class="center grey-text text-darken-3" href="deals.html">DEALS</a></li>
+      <li><a class="center grey-text text-darken-3" href="login.html">USER ACCOUNT</a></li>
+      <li class="divider"></li>
+    </ul>
+
+    <!-- Paralax Content -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/hotels/hotel_bg.jpg" style="max-width: 100%;" class="responsive-img">
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Hotels -->
+  <section class="section section-hotels">
+    <div class="container">
+      <div class="card horizontal">
+        <div class="card-image">
+          <img class="responsive-img" src="img/hotels/hotel1.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="row">
+            <div class="col s12 m6">
+              <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                <h5 class="title"><b>Mactan's Resort & Spa</b></h5>
+                <i class="material-icons tiny yellow-text text-darken-2 prefix">star star star star star</i>
+                <span style="vertical-align: 1px" class="grey-text text-darken-4">Hotel</span>
+              </a>
+              <table class="bordered highlight">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <i class="material-icons grey-text text-darken-2 left">location_on</i>
+                        <span>Lapu Lapu City, Cebu</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <span id="rating-box" class="white-text">8.9</span>
+                        <span>Very Good (228 Reviews)</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col s12 m6">
+              <form>
+                <div class="input-field center vertical-align-bottom">
+                  <br>
+                  <h5 class="grey-text text-darken-4">₱15,000</h5>
+                  <div class="btn red darken-1 waves-effect waves-light">
+                    <a href="deals.html" class="white-text left">View Deal
+                      <i class="material-icons right">chevron_right</i>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card horizontal">
+        <div class="card-image">
+          <img class="responsive-img" src="img/hotels/hotel2.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="row">
+            <div class="col s12 m6">
+              <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                <h5 class="title"><b>Blue Palawan Beach Club</b></h5>
+                <i class="material-icons tiny yellow-text text-darken-2 prefix">star star star</i>
+                <span style="vertical-align: 1px" class="grey-text text-darken-4">Resort</span>
+              </a>
+              <table class="bordered highlight">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <i class="material-icons grey-text text-darken-2 left">location_on</i>
+                        <span>Puerto Princesa, Palawan</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <span id="rating-box" class="white-text">8.9</span>
+                        <span>Very Good (890 Reviews)</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col s12 m6">
+              <form>
+                <div class="input-field center vertical-align-bottom">
+                  <br>
+                  <h5 class="grey-text text-darken-4">₱5,000</h5>
+                  <div class="btn red darken-1 waves-effect waves-light">
+                    <a href="deals.html" class="white-text left">View Deal
+                      <i class="material-icons right">chevron_right</i>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card horizontal">
+        <div class="card-image">
+          <img class="responsive-img" src="img/hotels/hotel3.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="row">
+            <div class="col s12 m6">
+              <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                <h5 class="title"><b>Citystate Asturias</b></h5>
+                <i class="material-icons tiny yellow-text text-darken-2 prefix">star star star star star</i>
+                <span style="vertical-align: 1px" class="grey-text text-darken-4">Hotel</span>
+              </a>
+              <table class="bordered highlight">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <i class="material-icons grey-text text-darken-2 left">location_on</i>
+                        <span>General Santos City</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                        <span id="rating-box" class="white-text">10</span>
+                        <span>Very Good (1023 Reviews)</span>
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col s12 m6">
+              <form>
+                <div class="input-field center vertical-align-bottom">
+                  <br>
+                  <h5 class="grey-text text-darken-4">₱20,000</h5>
+                  <div class="btn red darken-1 waves-effect waves-light">
+                    <a href="deals.html" class="white-text left">View Deal
+                      <i class="material-icons right">chevron_right</i>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="img/hotels/hotel4.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="row">
+              <div class="col s12 m6">
+                <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                  <h5 class="title"><b>Mariegold Hotel</b></h5>
+                  <i class="material-icons tiny yellow-text text-darken-2 prefix">star star star</i>
+                  <span style="vertical-align: 1px" class="grey-text text-darken-4">Hotel</span>
+                </a>
+                <table class="bordered highlight">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                          <i class="material-icons grey-text text-darken-2 left">location_on</i>
+                          <span>Kalibo, Aklan</span>
+                          <i class="material-icons right">keyboard_arrow_down</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#hotel1" class="grey-text text-darken-4 modal-trigger">
+                          <span id="rating-box" class="white-text">8.0</span>
+                          <span>Good (103 Reviews)</span>
+                          <i class="material-icons right">keyboard_arrow_down</i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col s12 m6">
+                <form>
+                  <div class="input-field center vertical-align-bottom">
+                    <br>
+                    <h5 class="grey-text text-darken-4">₱9,000</h5>
+                    <div class="btn red darken-1 waves-effect waves-light">
+                      <a href="deals.html" class="white-text left">View Deal
+                        <i class="material-icons right">chevron_right</i>
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Paralax Content -->
+  <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/hotels/hotel6.jpg" style="max-width: 100%;" class="responsive-img">
+      </div>
+    </div>
+
+<!-- Footer -->
+<footer class="page-footer  ">
+  <div class="container">Forge Lodge &copy; 2019
+    <a href="#!" class="grey-text text-lighten-4 right">Terms & Conditions</a>
+  </div>
+  <br>
+</footer>
+
+<!--  Hotel Modal -->
+<div id="hotel1" class="modal">
+  <a href="#" class="modal-action modal-close right" style="padding: 10px">
+    <i class="material-icons tiny red-text">close</i>
+  </a>
+  <div class="modal-content">
+    <h4>About Mactan's Resort & Spa</h4>
+    <p class="divider"></p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusantium odio tempora iure aliquid, ab perferendis tenetur, sunt, sed labore vel distinctio impedit aut perspiciatis. Fugiat beatae molestias earum deleniti dolore dolor voluptate quo atque debitis saepe, quod facere dolorem alias sed. Voluptas, porro. Earum quaerat eum impedit veritatis dolor.</p>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs transparent red-text text-darken-2">
+          <li class="tab col s6">
+            <a href="#tab1">Location</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#tab2">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab1">
+      <div class="section">
+        <span><b><em>123 Street, Hotel Drive, Luxury City</em></b></span>
+        <div id="googlemap"></div>
+      </div>
+    </div>
+    <div id="tab2">
+      <div class="carousel carousel-slider center" data-indicators="true">
+        <a class="carousel-item" href="#one!">
+          <img src="img/car/1car3.jpg">
+        </a>
+        <a class="carousel-item" href="#two!">
+          <img src="img/car/2car1.jpg">
+        </a>
+        <a class="carousel-item" href="#three!">
+          <img src="img/car/2car2.jpg">
+        </a>
+        <a class="carousel-item" href="#four!">
+          <img src="img/car/1car1.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+          <img src="img/car/1car2.jpg">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--Import jQuery before materialize.js-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaS  yDlBmp48_9M9BFV-ORE6pT50B2Sm8WFjtU"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Init Sidenav
+      $('.button-collapse').sideNav();
+
+      // Init Paralax
+      $('.parallax').parallax();
+
+      // Init Modal
+      $('.modal').modal();
+
+      // Init Datepicker
+      $('.datepicker').on('mousedown', function(e){
+        e.preventDefault();
+      });
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYear: 15,
+        closeOnSelect: true
+      });
+
+      // Init Carousel
+      $('.carousel').carousel({fullWidth: true,});
+
+      // Function to Organize Card When Screen Size is Changed
+      $(window).resize(function(){
+        // Remove Horizontal Class
+        if(window.innerWidth <= 1080){
+          $('.section-hotels .card').removeClass('horizontal');
+        }else{
+          $('.section-hotels .card').addClass('horizontal');
+        }
+        
+        // Limit Image max-height
+        if(window.innerWidth >= 1200){
+          $('.card-image img').css({'max-height' : '240px', 'width' : 'auto'});
+        }else{
+          $('.card-image img').css({'max-height' : '100%', 'width' : 'auto'});
+        }
+
+        // Responsive Paralax
+        if(window.innerWidth <= 420){
+          $('header').css({'max-height': '100px'});
+          $('header .parallax-container').css({'max-height': '100px'});
+        }else if(window.innerWidth > 420 && window.innerWidth <= 601){
+          $('header').css({'max-height': '280px'});
+          $('header .parallax-container').css({'max-height': '280px'});
+        }else if(window.innerWidth > 601 && window.innerWidth <= 780){
+          $('header').css({'max-height': '400px'});
+          $('header .parallax-container').css({'max-height': '400px'});
+        }else{
+          $('header').css({'max-height': '  100%'});
+          $('header .parallax-container').css({'max-height': '100%'});
+        }
+      });
+
+      // Google API
+      const position = [14.671183, 121.043241];
+      const centerPosition = [14.671183, 121.043241];
+
+      function showGoogleMaps() {
+        // Map Position
+        const latLng = new google.maps.LatLng(position[0], position[1]);
+        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
+
+        // Map Option
+        const mapOption = {
+          zoom: 15,
+          streetViewControl: false,
+          scaleControl: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: centerLatLng
+        }
+
+        // Create Map
+        map = new google.maps.Map(document.getElementById('googlemap'), mapOption);
+
+        // Show Marker
+        marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          draggable: false,
+          animation: google.maps.Animation.DROP
+        });
+      }
+
+      // Maps Event
+      google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+    });
+  </script>
+</body>
+
+</html>
