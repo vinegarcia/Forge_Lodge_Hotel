@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/user.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- IMport Icon -->
+  <link rel="icon" type="image/png" sizes="36x36"  href="img/android-icon-36x36.png">
+
+    <style>
+        
+        </style>
+
+    <title>Forge Lodge Hotel</title>
+</head>
+
+<body id="page-body" >
+<nav class="navbar-fixed" id="home" >
+    <div class="container">
+        <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"> 
+          <img src="img/fl.png" alt="" class="responsive-img" style="height: 60px; "> 
+          <!-- <span style="color: #263238"> The best place to relax and unwind </span> -->
+          </a>
+
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="home1.html">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="hotels.html">Hotels</a>
+              </li>
+              <li>
+                <a href="deals.html">Deals
+                    <span class="badge white-text black new">10</span>    
+                </a>
+              </li>
+                   <!-- DROPDOWN TRIGGER -->
+                <li> 
+                  <a class="dropdown-button" data-activates="my-dropdown" href="#!">User Account
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>       
+              </li>
+              <!-- ICON LINK -->
+               <li>
+                <a href="#">
+                  <i class="material-icons">person</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Side Navigation --> 
+    <ul class="side-nav" id="mobile-nav">
+        <li>
+          <div class="user-view">
+              <div class="background">
+              <img src="img/bahan-bangunan-dasar-301378.jpg" alt="">
+          </div>
+          <a href="#">
+                  <img src="img/person1.jpg" alt="" class="circle">
+                </a>
+                <a href="#">
+                  <span class="name white-text">Earl Christian N. Abdula</span>
+                </a>
+                <a href="#">
+                  <span class="email white-text">earlabdula@gmail.com</span>
+                </a>
+              </div>
+          </li>
+      <li>
+        <a class="divider">
+          <img src="img/fl.png" alt="" class="responsive-img center" style="height: 50px; width: 100%"></a>
+      </li>
+      <li>
+        <a href="home.html"> 
+          <i class="fa fa-home grey-text text-darken-4">
+          </i>   Home
+        </a>
+    </li>
+    <li>
+        <a href="#about">
+            <i class="fa fa-address-card grey-text text-darken-4">
+            </i>   About</a>
+    </li>
+    <li>
+        <a href="hotels.html">
+        <i class="fas fa-building grey-text text-darken-4">
+        </i>Hotels</a>
+    </li>
+    <li>
+        <a href="deals.html">
+            <i class="fas fa-tag"></i>Deals
+            </a>
+    </li> 
+    <li> 
+        <a href="#aboutus">About Us
+            <i class="material-icons">create</i>
+        </a>
+      </li>
+    <li>
+        <a class="dropdown-button" data-activates="my-dropdown" href="#!">
+          <i class="fas fa-user"></i>User Account
+            <i class="material-icons right">arrow_drop_down</i>
+        </a>       
+       </li>  
+    <li>
+      <a href="index.html" class="btn red darken-1 waves-effect waves-light">Logout</a>
+    </li>
+    </ul>
+
+         
+ <!-- DROPDOWN MENU -->
+ <ul id="my-dropdown" class="dropdown-content">
+    <li>
+      <a href="user.html" class="left">My Dashboard 
+        <i class="material-icons">dashboard</i></a>
+      <div class="divider"></div>
+    </li>
+
+    <li>
+      <a href="user.html" class="left">Bookings 
+        <i class="material-icons">book</i></a>
+    </li>
+    <li>
+      <a href="user.html" class="left">Notifications
+        <i class="material-icons">notifications</i></a>
+    </li>
+    <li>
+      <a href="user.html" class="left">Settings <i class="material-icons">settings</i></a>
+    </li>
+
+    <li>
+        <div class="divider"></div>
+      <a href="index.html" class="right">Sign Out</a>
+    </li>
+  </ul>
+
+
+<!-- Section tabs -->
+<div class="tab">
+  <div class="container">
+    <div class="row">
+  <div class="col s12 m6 l12">
+     <div class="card center">
+      <div class="card-tabs" >
+        <!-- make tabs transparent -->
+        <ul class="tabs">   
+          <li class="tab">
+            <a href="#tab1">My Dashboard
+              <i class="material-icons">dashboard</i>
+            </a>
+          </li>
+          <li class="tab">
+            <a href="#tab2">Bookings
+              <i class="material-icons">book</i>
+            </a>
+          </li>
+          <li class="tab">
+            <a href="#tab3">Notifications
+              <i class="material-icons">comments</i>
+            </a>
+          </li>
+          <li class="tab">
+            <a href="#tab4">Settings
+              <i class="material-icons">settings</i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+   
+<!-- This is card content division -->
+      <div class="card-content block">
+         
+          <div id="tab1">
+            <!-- Section dashboard -->
+            <section class="section section-user center">
+                <div class="row">
+                  <div class="col s12 m6 l3">
+                    <div class="card-panel brown-text  center">
+                      <ul class="collection center " style="border: brown">
+                          <li class="collection-item avatar ">
+                            <i class="material-icons medium brown circle">account_circle</i>
+                            <span class="title">Earl Christian Abdula</span>
+                            <p>earlabdula@gmail.com
+                              <br>
+                              <a href="#tab4" class="brown-text darken-4" style="font-style: italic">Edit your profile</a>
+                            </p>
+                          </li>
+                      </ul>
+                      
+                      <!-- division horizontal -->
+                      <div class="card-panel  white-text center z-depth-3" id="page-card" >
+                          <h6 class="count">50% completed</h6>
+                          <div class="progress grey lighten-1">
+                            <div class="determinate white" style="width: 50% ">
+                            </div>
+                          </div>
+                          <a href="#tab4" class="white-text darken-4 left"><i class="material-icons">add_circle</i>Add credit card details</a>
+                          <br>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dignissimos officia 
+                            .</p>
+                          <a href="" class="white-text darken-4 left"><i class="material-icons">add_circle</i>Add a display name</a>
+                          <br>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dignissimos officia 
+                            .</p>
+                          <a href="" class="white-text darken-4 left"><i class="material-icons">add_circle</i>Add a contact number</a>
+                          <br>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dignissimos officia 
+                            .</p>
+                        </div>
+        
+                    </div>
+
+                    <div class="card-panel white-text center z-depth-3">
+                    <div class="card-panel white-text center z-depth-3" id="page-card">
+                        <i class="material-icons medium">hotel</i>
+                        <h5>Find deals for any Seasons</h5>
+                        <form class="action">
+
+                          <!-- Select -->
+                          <div class="input-field">
+                              <select id="room">
+                                <option value="" disabled selected>Select Room Type</option>
+                                <option value="">Deluxe Bed Room</option>
+                                <option value="">Queens Bed Room</option>
+                                <option value="">King Bed Room</option>
+                                <option value="">Single Bed Room</option>
+                                <option value="">Double Bed Room</option>
+                                <option value="">Family Bed Room</option>   
+                              </select>
+                              <label>Select Room </label>
+                            </div>
+                    
+                          <!-- DATE PICKER -->
+                          <div class="input-field">
+                              <input type="text" class="datepicker" id="date">
+                              <label for="date" class="white-text">Check in date</label>
+                            </div>
+
+                          <div class="input-field">
+                              <input type="text" class="datepicker" id="date">
+                              <label for="date" class="white-text">Check out date</label>
+                            </div>    
+
+                            <!-- Radio button -->
+                            <div>
+                            <p class="white-text">Are you sure to book it?
+                              <br>
+                              <input class="with-gap white" type="radio" name="true" id="true" >
+                              <label for="true" class="white-text">Yes</label> &nbsp; &nbsp; <input class="with-gap white" type="radio"name="false" id="false">
+                              <label for="false" class="white-text">No</label>
+                              </p>
+                            </div>
+
+                            <br>
+                            <div >
+                            <a class="dropdown-button white-text left" data-activates="my-dropdown" href="#!">Rooms
+                                <i class="material-icons right">arrow_drop_down</i>
+                              </a>
+                          </div>
+                          <br>
+                          <br>
+                            <div>
+                            <a class="dropdown-button white-text left" data-activates="my-dropdown" href="#!">Adults
+                                <i class="material-icons right">arrow_drop_down</i>
+                              </a>
+                          </div>
+                          <br>
+                          <br>
+                            <div>
+                            <a class="dropdown-button white-text left" data-activates="my-dropdown" href="#!">Children
+                                <i class="material-icons right">arrow_drop_down</i>
+                              </a>
+                              
+                            </div>
+                            <br>
+                            <br>
+                            <input type="submit" value="search" class="btn btn-medium red darken-1 white-text"> 
+                        </form>
+                        
+                      </div>
+                    </div>
+                    </div>
+
+                      <!-- DROPDOWN MENU -->
+                        <ul id="my-dropdown" class="dropdown-content">
+                          <li>
+                            <a href="#"> 1</a>
+                          </li>
+                          <li>
+                            <a href="#"> 2</a>
+                          </li>
+                          <li>
+                            <a href="#"> 3</a>
+                          </li>
+                          <li>
+                            <a href="#"> 4</a>
+                          </li>
+                          <li>
+                            <a href="#"> 5</a>
+                          </li>
+                        </ul>
+
+                <!-- division vertical  -->
+                 
+                    <div class="col s12 m6 l3">
+                       <div class="card-panel white-text center z-depth-3">
+                      <div class=" card-panel brown lighten white-text center waves-effect waves-light  z-depth-3">
+                        <i class="material-icons medium">search</i>
+                        <h5>Find Best Deals</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                          Tempore unde ipsum ratione illum necessitatibus 
+                          illo ea recusandae? Delectus, sint vero.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="col s12 m6 l3">
+                      <div class="card-panel white-text center  z-depth-3">
+                      <div class=" card-panel brown lighten white-text center waves-effect waves-light  z-depth-3" >
+                        <i class="material-icons medium">account_box</i>
+                        <h5>Add Your Details</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                          Tempore unde ipsum ratione illum necessitatibus 
+                          illo ea recusandae? Delectus, sint vero.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col s12 m6 l3">
+                      <div class="card-panel white-text center  z-depth-3">
+                      <div class=" card-panel brown lighten white-text center waves-effect waves-light  z-depth-3" >
+                        <i class="material-icons medium">mobile_friendly</i>
+                        <h5>Download The App</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                          Tempore unde ipsum ratione illum necessitatibus 
+                          illo ea recusandae? Delectus, sint vero.</p>
+                      </div>
+                    </div>
+                </div>
+                  
+                 
+
+                    <div class="col s12 m6 l9">
+                        <div class="card-panel white-text center z-depth-3">
+                        <div class="card brown lighten white-text center  z-depth-3">
+                          <div class="card-content">
+                            <table > 
+                              <tbody>
+                                <tr>
+                                  <td><img src="img/asd.jpg" alt="" class="responsive-img left" style="width: 40%; height:10%">
+                                    <h5>Pay For Your Passion.</h5>
+                                    <h5>Register.Now.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                      Ducimus consequuntur accusantium, nesciunt explicabo debitis pariatur?</p>
+                                      <br>
+                                    <a href="home1.html" class="btn red darken-1 white-text waves-effect waves-light right">Learn More</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <br>
+                    <br>
+
+                    <div class="col s12 m6 l9">
+                        <div class="card-panel white-text center z-depth-3">
+                        <div class="card brown lighten white-text center  z-depth-3">
+                          <div class="card-content">
+                            <table > 
+                              <tbody>
+                                <tr>
+                                  <td><img src="img/dark-hotel-night-919.jpg" alt="" class="responsive-img left" style="width: 40%; height:5%">
+                                    <h5>Experience all facilites and amenities</h5>
+                                    <h5>so that, Book Now!</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                      Ducimus consequuntur accusantium, nesciunt explicabo debitis pariatur?</p>
+                                      <br>
+                                    <a href="hotels.html" class="btn red darken-1 white-text waves-effect waves-light right">Book Now!</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div class="col s12 m6 l4">
+                          <div class="card-panel white-text center  z-depth-3">
+                          <div class=" card-panel brown lighten white-text center waves-effect waves-light  z-depth-3" >
+                            <i class="material-icons medium">account_box</i>
+                            <h5>Add Your Details</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                              Tempore unde ipsum ratione illum necessitatibus 
+                              illo ea recusandae? Delectus, sint vero.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col s12 m6 l4 offset-l1">
+                          <div class="card-panel white-text center  z-depth-3">
+                          <div class=" card-panel brown lighten white-text center waves-effect waves-light  z-depth-3" >
+                            <i class="material-icons medium">account_box</i>
+                            <h5>Add Your Details</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                              Tempore unde ipsum ratione illum necessitatibus 
+                              illo ea recusandae? Delectus, sint vero.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                   
+      <!-- end of section dashboard -->
+                </section>
+              </div>
+
+
+<!-- tab2 Bookings -->
+            <div id="tab2">      
+              <div class="card-panel white-text center  z-depth-3">
+              <div class="card brown lighten white-text center z-depth-3">
+                    <div class="card-content">
+                      <table> 
+                        <tbody>
+                          <tr>
+                            <td><img src="img/architecture-beach-building-258154.jpg" alt="" class="responsive-img left" style="width: 30%; height:5">
+                              <h5>There are no reservations</h5>
+                              <p>You can book a new reservation by clicking the "Book Reservation" button.</p>
+                                <br>
+                                <p style="size: 100%">0</p>
+                              <a href="hotels.html" class="btn btn-large red darken-1 white-text waves-effect waves-light right">Book Reservation</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            
+<div id="tab3">
+<!-- Section Notification -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+          <div class="card-panel page-card center  z-depth-3">
+            <div class="card" id="comment">
+              <div class="card-content">
+                <span class="card-title"><h5>Notifications</h5></span>
+                <table>
+                  <thead>
+                    <tr class="delete">
+                      <td>
+                          <i class="material-icons right">comments</i>
+                      <td>
+                           Lorem ipsum dolor sit, amet consectetur
+                           adipisicing elit. Ea, dolores.
+                           <td>
+                               <a href="" class="green-text">
+                                   <i class="material-icons">done</i>Mark as read
+                                   <a href="" class="red-text">
+                                       <i class="material-icons">close</i>Remove
+                                    </a>
+                                </a>
+                            </td>
+                       </td>
+                   </td>
+                </tr>
+    
+                   <tr>
+                    <td>
+                        <i class="material-icons right">comments</i>
+                       <td>
+                           Lorem ipsum dolor sit, amet consectetur 
+                           adipisicing elit. Ea, dolores.
+                           <td>
+                               <a href="" class="green-text">
+                                   <i class="material-icons">done</i>Mark as Read
+                                   <a href="" class="red-text">
+                                       <i class="material-icons">close</i>Remove
+                                    </a>
+                                </a>
+                            </td>
+                       </td>
+                   </td>
+                </tr>
+    
+                <tr class="delete">
+                   <td>
+                     <i class="material-icons right">comments</i>
+                       <td>
+                           Lorem ipsum dolor sit, amet consectetur 
+                           adipisicing elit. Ea, dolores.
+                           <td>
+                               <a href="" class="green-text">
+                                   <i class="material-icons">done</i>Mark as Read
+                                  </a>
+                                   <a href="" class="red-text">
+                                       <i class="material-icons">close</i>Remove
+                                    </a>
+                            </td>
+                       </td>
+                   </td>
+                </tr>
+            </thead>     
+            <div class="divider brown"></div>
+            <div class="divider brown"></div>
+          
+          </table>
+      
+          <div class="divider brown"></div>
+          <div class="divider brown"></div>
+
+
+            </div>
+              <div class="card-action">
+                <ul class="pagination">
+                    <li class="disabled">
+                        <a href="#!" class="brown-text">
+                            <i class="material-icons">chevron_left</i>
+                        </a>
+                    </li>
+    
+                    <li class="active brown darken">
+                        <a href="#!" class="white-text">1</a>
+                    </li>
+    
+                    <li>
+                        <a href="#!" class="brown-text">2</a>
+                    </li>
+    
+                    <li>
+                        <a href="#!" class="brown-text">3</a>
+                    </li>
+    
+                    <li>
+                        <a href="#!" class="brown-text">4</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#!" class="brown-text">5</a>
+                    </li>
+    
+                    <li class="waves-effect">
+                            <a href="#!" class="brown-text">
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- tab4 settings -->
+<div id="tab4">      
+    <div class="card z-depth-3">
+          <div class="card-content">
+            <!-- Section signup -->
+              <section class="section section-signup ">
+             <div class="row"> 
+            <div class="col s12 m6 l6">
+                <ul  class="collapsible" data-collapsible="expandable" id="page-card">
+                    <li>
+                      <div class="collapsible-header ">
+                        <i class="material-icons">add</i>Profile Information
+                      </div>
+                      <div class="collapsible-body">
+                <h4>Information</h4>
+                <div class="card-panel lighten-4 
+                grey-text text-darken-4 z-depth-0">
+                <form class="action">
+                    <i class="material-icons left">account_circle</i>
+                    <br>
+                    <div class="input-field"><input type="text" id="first_name">
+                        <label for="first_name">First Name</label>
+                    </div>
+
+                    <i class="material-icons left">account_box</i>
+                    <br>
+                    <div class="input-field"><input type="text" id="last_name">
+                        <label for="last_name">Last Name</label>
+                    </div>
+
+                    <i class="material-icons left">email</i>
+                    <br>
+                    <div class="input-field"><input type="email" id="email">
+                        <label for="email">Email Address</label>
+                    </div>
+
+                    <i class="material-icons left">lock</i>
+                    <br>
+                    <div class="input-field"><input type="password" id="password">
+                        <label for="password">Password</label>
+                    </div>
+                    
+                    <i class="material-icons left">lock</i>
+                    <br>
+                    <div class="input-field"><input type="password" id="password1">
+                        <label for="password1">Confirm Password</label>
+                    </div>
+                    <input type="submit" value="Update" class="btn btn-large red darken-1 btn-extend">
+                    <input type="submit" value="Cancel" class="btn btn-large blue darken-1 btn-extend">
+                </form>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+            <div class="col s12 m6 l3">
+                <ul  class="collapsible" data-collapsible="expandable" id="page-card">
+                    <li>
+                      <div class="collapsible-header ">
+                        <i class="material-icons">add</i>Add an Address
+                      </div>
+                      <div class="collapsible-body">
+                          <h4>Address</h4>
+                          <div class="card-panel lighten-4 
+                          grey-text text-darken-4 z-depth-0">
+                          <form class="action">
+                              <i class="material-icons left">business</i>
+                              <br>
+                              <div class="input-field"><input type="text" id="street">
+                                  <label for="street">Name (E.g, Home, Work)</label>
+                              </div>
+          
+                              <i class="material-icons left">location_city</i>
+                              <br>
+                              <div class="input-field"><input type="text" id="Address1">
+                                  <label for="Address1">Address 1   </label>
+                              </div>
+          
+                              <i class="material-icons left">location_city</i>
+                              <br>
+                              <div class="input-field"><input type="text" id="Address2">
+                                  <label for="Address2">Address 2  </label>
+                              </div>
+          
+                              <i class="material-icons left">location_city</i>
+                              <br>
+                              <div class="input-field"><input type="number" id="postal">
+                                  <label for="postal">ZIP/ Postal Code  </label>
+                              </div>
+          
+                              
+                              <i class="material-icons left">location_city</i>
+                              <br>
+                              <div class="input-field"><input type="text" id="city">
+                                  <label for="city">City</label>
+                              </div>
+                              <input type="submit" value="Update" class="btn btn-large red darken-1 btn-extend">
+                              <input type="submit" value="Cancel" class="btn btn-large blue darken-1 btn-extend">
+                          </form>
+                          </div>
+                        
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="col s12 m6 l3">
+                    <ul  class="collapsible" data-collapsible="expandable" id="page-card">
+                        <li>
+                          <div class="collapsible-header ">
+                            <i class="material-icons">add</i>Add an Credit Card
+                          </div>
+                          <div class="collapsible-body">
+                              <h4>Credit Card</h4>
+                              <div class="card-panel lighten-4 
+                              grey-text text-darken-4 z-depth-0">
+                              <form class="action">
+                                  <i class="material-icons left">credit_card</i>
+                                  <br>
+                                  <div class="input-field"><input type="number" id="number">
+                                      <label for="number">Card Number</label>
+                                  </div>
+              
+                                  <i class="material-icons left">calendar_today</i>
+                                  <br>
+                                  <div class="input-field">
+                                      <input type="text" class="datepicker" id="date">
+                                      <label for="date" class="white-text">Check in date</label>
+                                    </div>
+              
+                                  <i class="material-icons left">person</i>
+                                  <br>
+                                  <div class="input-field"><input type="text" id="name">
+                                      <label for="name">Name on Card</label>
+                                  
+                                  <input type="submit" value="Update" class="btn btn-large red darken-1 ">         
+                                  <input type="submit" value="Cancel" class="btn btn-large blue darken-1  ">  
+                                  <div>
+                                      <img src="img/atm.png" alt="" class="responsive-img">
+                                    </div>       
+                              </form>
+                              </div>                           
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </section>
+          </div>
+        </div>
+        </div>
+
+
+            
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+ 
+
+ <!-- Footer -->
+ <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h5>Follow us online</h5>
+            <ul>
+             <li><a href="http://facebook.com" area-hidden="true"><i class="fab fa-facebook"></i></a></li>
+             <li><a href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+           </ul>
+          <h5>Location</h5>
+          <p>Forge Hotel, INC</p>
+          <p>555 Somewhere Drive, Quezon City</p>
+          <p>555-555-555</p>
+          
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a href="#home" class="white-text">Home</a></li>
+            <li><a href="#about" class="white-text">About Us</a></li>
+            <li><a href="#testimonials" class="white-text">Testimonials</a></li>
+            <li><a href="#contact" class="white-text">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m4 l2">
+            <h5 >Scan Me</h5>
+        
+            <img src="img/scan.png" alt="" class="responsive-img" style="height: 150px;">
+          </div>
+      </div>
+    </div>
+    <div class="footer-copyright red darken-2">
+      <div class="container">Forge Hotel copyright &copy; | All Rights Reserved 2019
+          <a href="#home" class="grey-text text-lighten-4 right">
+              <i class="material-icons left">keyboard_arrow_up</i> Back To Top
+            </a>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  
+  <!--Import jQuery before materialize.js-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script>
+    
+      $(document).ready(function () {
+
+      //Init Side nav
+      $('.button-collapse').sideNav();
+
+      
+      $('.dropdown-button').dropdown({
+        constrainWidth: false,
+        hover: true,
+        belowOrigin: true,
+        alignment: 'right'
+      });
+ 
+      // forcompatibliityofdate
+      $('.datepicker').on('mousedown', e => {
+        e.preventDefault();
+      });
+
+      // datepicker
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYears: 15,  
+        closeOnSelect: true
+      });
+      // Selectin in option
+      $('select').material_select();
+
+        // Delete todos
+    $('.delete').on('click', '.delete', function (e) {
+      $(this).parent().parent().parent().remove();
+      Materialize.toast('Notification Removed', 3000 );
+
+      e.preventDefault();
+
+    })
+
+
+       
+    });
+
+   
+  </script>
+</body>
+</html>
